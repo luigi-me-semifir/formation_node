@@ -1,0 +1,27 @@
+{
+  "name": "formation_node",
+  "version": "1.0.0",
+  "description": "Projet de démonstration pour la formation NodeJS Orange",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "import": "node ./module/index.js",
+    "server": "nodemon serveurHTTP/index.js",
+    "routing": "nodemon routingHTTP/index.js",
+    "express": "nodemon express/index.js",
+    "middle": "nodemon ./exo_middleware/index.js",
+    "films": "nodemon ./films/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Luigi_Me",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "mongoose": "^8.0.3"
+  }
+}
